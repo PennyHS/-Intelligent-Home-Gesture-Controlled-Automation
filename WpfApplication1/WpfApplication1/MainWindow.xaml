@@ -1,0 +1,58 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" xmlns:dxnav="http://schemas.devexpress.com/winfx/2008/xaml/navigation" x:Class="WpfApplication1.MainWindow"
+        Title="MainWindow" Height="944" Width="1050" WindowState="Maximized">
+    <Grid>
+        <InkPresenter x:Name="paintCanvas" Margin="-13,-133,0,132.5">
+            <dxlc:TileLayoutControl Margin="16,131,-3,-130" MaximizedElementPosition="Top" RenderTransformOrigin="0.5,0.5">
+                <dxlc:TileLayoutControl.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.454"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </dxlc:TileLayoutControl.RenderTransform>
+                <dxlc:TileLayoutControl.Background>
+                    <ImageBrush ImageSource="Nature-4k-UHD-wallpapers-089.jpg"/>
+                </dxlc:TileLayoutControl.Background>
+                <Button x:Name="TV" HorizontalAlignment="Left" Height="162" VerticalAlignment="Top" Width="242" Margin="-30,-30,-184,-131" Opacity="0.7" BorderBrush="{x:Null}" Foreground="{x:Null}" RenderTransformOrigin="0.5,0.5" Click="TV_Click" Background="#FF7ACDD9">
+                    <Image Height="142" Source="computer.png" Stretch="Fill" Width="153"/>
+                </Button>
+                <Button x:Name="LIGHT" Margin="274,-41,-440,-121" RenderTransformOrigin="0.504,0.525" Background="#FFB8ACAC" Opacity="0.7" Click="LIGHT_Click" >
+                    <Image Height="174" Source="illumination.png" Stretch="Fill" Width="199" Opacity="0.9"/>
+                </Button>
+                <Button x:Name="FAN" Margin="-30,183,-189,-381" Click="FAN_Click" Opacity="0.8">
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                    <Image Height="187" Source="google-chrome.png" Stretch="Fill" Width="212"/>
+                </Button>
+                <Button x:Name="CLOSE" HorizontalAlignment="Left" Width="221" RenderTransformOrigin="21.151,12.754" Margin="302,173,-499,-371" Click="CLOSE_Click" Opacity="0.8">
+                    <Image Height="165" Source="Crystal_Project_Exit.png" Stretch="Fill" Width="162" Opacity="0.8"/>
+                </Button>
+                <dxnav:TileNavPane HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="0">
+                    <dxnav:TileNavPane.NavButtons>
+                        <dxnav:NavButton Content="NavButton" IsMain="True"/>
+                        <dxnav:NavButton Content="NavButton" IsMain="False"/>
+                        <dxnav:NavButton Content="NavButton" IsMain="False"/>
+                    </dxnav:TileNavPane.NavButtons>
+                    <dxnav:TileNavCategory Content="TileNavCategory">
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                    </dxnav:TileNavCategory>
+                    <dxnav:TileNavCategory Content="TileNavCategory">
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                    </dxnav:TileNavCategory>
+                    <dxnav:TileNavCategory Content="TileNavCategory">
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                        <dxnav:TileNavItem Content="TileNavItem"/>
+                    </dxnav:TileNavCategory>
+                </dxnav:TileNavPane>
+            </dxlc:TileLayoutControl>
+        </InkPresenter>
+        <Calendar HorizontalAlignment="Left" Margin="832,52,0,0" VerticalAlignment="Top" Width="186" Height="192" RenderTransformOrigin="0.468,1.028"/>
+    </Grid>
+</Window>
