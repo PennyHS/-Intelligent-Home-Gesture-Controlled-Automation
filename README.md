@@ -27,7 +27,7 @@ This is a legacy project built around **2016**, focusing on automating smart hom
 
 ## 📷 Demo / Images
 
-![Gesture Control Demo](https://imgur.com/a/NjSLLlW](https://i.imgur.com/xj6NA2S.gif)
+![Gesture Control Demo](https://i.imgur.com/xj6NA2S.gif)
 
 
 ---
