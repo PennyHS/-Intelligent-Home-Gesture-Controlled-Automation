@@ -25,11 +25,6 @@ This is a legacy project built around **2016**, focusing on automating smart hom
 
 ---
 
-## 📷 Demo 
-<img src="https://i.imgur.com/xj6NA2S.gif" alt="Gesture Control Demo" width="500"/>
-
----
-
 ## 📚 Background
 
 This project was developed in 2016 as part of a research or academic exploration into IoT-based home automation. It showcases an early understanding of hardware-software integration and creative approaches to user interaction.
