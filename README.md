@@ -18,7 +18,7 @@ This is a legacy project built around **2016**, focusing on automating smart hom
 ## 🛠️ Technologies & Tools Used
 
 - Arduino / Raspberry Pi (depending on your hardware)
-- C/C++ for microcontroller programming
+- C# for microcontroller programming
 - Python (optional if used for gesture processing)
 - Sensors: Accelerometer, IR, or camera module
 - Relay modules for controlling appliances
